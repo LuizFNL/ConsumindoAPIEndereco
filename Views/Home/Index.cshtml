@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Buscar endereço";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Buscar CEP</h1>
+    <p>Digite o seu CEP abaixo sem utilizar pontuação:</p>
+    <form asp-controller="Home" asp-action="BuscarCEP" method="get">
+        <div class="input-group mb-3">
+            <input name="cep" class="form-control" type="text" placeholder="Digite seu CEP">
+            <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
+        </div>
+    </form>
+</div>
+
+
+

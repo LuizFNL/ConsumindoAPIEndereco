@@ -1,0 +1,15 @@
+@model Endereco
+
+@{
+    ViewData["Title"] = "Endereco encontrado";
+}
+<h1>@ViewData["Title"]: @Model.Cep</h1>
+<br>
+<div>
+    <p><b>Rua: </b>@Model.Logradouro</p>
+    <p><b>Bairro: </b>@Model.Bairro</p>
+    <p><b>Cidade: </b>@Model.Localidade</p>
+    <p><b>UF: </b>@Model.Uf</p>
+    <p><b>DDD: </b>@Model.Ddd</p>
+</div>
+
