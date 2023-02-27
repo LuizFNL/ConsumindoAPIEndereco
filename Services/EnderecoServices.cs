@@ -1,6 +1,7 @@
 using Newtonsoft.Json;
+using consumindo_api.Models;
 
-namespace consumindo_api.Models
+namespace consumindo_api.Services
 {
     public class EnderecoServices
     {
